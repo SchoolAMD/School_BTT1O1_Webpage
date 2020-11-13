@@ -1,0 +1,22 @@
+footer{
+    background-color: rgb(56, 56, 56);
+    transition: 0.5s;
+    text-align: center;
+    padding: 1.5em 0;
+}
+footer:hover{
+    background-color: rgb(70, 70, 70);
+}
+#ft_stuff{
+    font-size: xx-small;
+}
+img{
+    transition: 0.5s;
+}
+img:hover:not(.NoInclude){
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    width: 92%;
+}
+#purchaseItem:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}

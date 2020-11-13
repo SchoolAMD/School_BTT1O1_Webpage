@@ -1,0 +1,42 @@
+#content{
+    width: auto;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(240, 240, 240, 0.15);
+    backdrop-filter: blur(2px);
+    overflow: auto;
+    max-width: 95%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+benifits{
+    position: relative;
+}
+.right{
+    text-align: center;
+    margin: auto;
+    right: 0;
+}
+img{
+    z-index: -100;
+}
+.right>img{
+    right: 0;
+    float: right;
+}
+.left>img{
+    left: 0;
+    float: left;
+}
+p, h2{
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+    line-height: 175%;
+}
+
+.left{
+    text-align: center;
+    margin: auto;
+}

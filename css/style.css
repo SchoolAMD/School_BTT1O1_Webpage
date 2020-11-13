@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Azonix_Regular';
+    src: url('../font/Azonix-1VB0.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Swansea_Regular';
+    src:url('../font/Swansea-q3pd.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: auto;
+    background-image: url('../img/45-degree-fabric-dark.png');
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+}
+header{
+    margin:auto;
+    text-align: center;
+}
+video{
+    padding: 10px;
+    text-align: center;
+	background-color: rgb(165, 165, 165);
+    border-radius: 10px;
+	margin: auto;
+	position: auto;
+    transform: translate(47%,20%);
+    transition: 0.5s;
+}
+video:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+img{
+    background-color: rgb(165, 165, 165);
+}
+h2{
+    font-family: 'Azonix_Regular';
+}
+p{
+    font-family: 'Swansea_Regular';
+}
+#topImage{
+    left: 5%;
+    top: 5%;
+    margin: auto;
+    z-index: -200;
+    position: fixed;
+}
+#HeadImage{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+}
+#story{
+    transition: 0.5s;
+}
+#story:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+#review, #review>p{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    background-color: rgba(221, 221, 221, 0.3);
+    font-size: large;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+#review>p:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
