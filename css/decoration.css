@@ -13,9 +13,12 @@ footer:hover{
 img{
     transition: 0.5s;
 }
-img:hover:not(.NoInclude){
+img:hover:not(.NoInclude):not(.TI){
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
     width: 92%;
+}
+.TI:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 #purchaseItem:hover{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);

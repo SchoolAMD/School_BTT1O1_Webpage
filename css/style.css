@@ -15,6 +15,7 @@ body{
     background-image: url('../img/45-degree-fabric-dark.png');
     background-color: rgb(255, 255, 255);
     background-attachment: fixed;
+    overflow-y:scroll;
 }
 header{
     margin:auto;
@@ -36,18 +37,22 @@ video:hover{
 img{
     background-color: rgb(165, 165, 165);
 }
-h2{
+h2, h1{
     font-family: 'Azonix_Regular';
 }
 p{
     font-family: 'Swansea_Regular';
 }
 #topImage{
-    left: 5%;
-    top: 5%;
+    text-align: center;
+    top:7%;
+    position: fixed;
     margin: auto;
     z-index: -200;
-    position: fixed;
+    display: table;
+    table-layout: fixed;
+    box-sizing: border-box;
+    display: block;
 }
 #HeadImage{
     box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
@@ -66,5 +71,8 @@ p{
     transition: 0.5s;
 }
 #review>p:hover{
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+}
+#titleHMA{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
 }
